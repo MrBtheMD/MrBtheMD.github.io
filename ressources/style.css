@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid orange;
-
+    background-color: white;
 }
 
 header h1 {
@@ -35,12 +35,6 @@ header li {
     margin: 0 1rem 0 0;
 }
 
-section {
-    margin: 1rem;
-    max-width: 900px;
-}
-
-
 a {
     text-decoration: none;
     color: black;
@@ -50,6 +44,17 @@ a:hover {
     color: orange;
 }
 
+
+section {
+    margin: 1rem;
+    max-width: 900px;
+}
+
 .fa-brands, .fa-solid {
     font-size: 1.6rem;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: space-evenly;
 }
