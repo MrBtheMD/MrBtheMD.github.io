@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid orange;
+
+}
+
+header h1 {
+    float: left;
+    font-size: 1.6rem;
+    margin-left: 1rem
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    margin: 0 1rem 0 0;
+}
+
+section {
+    margin: 1rem;
+    max-width: 900px;
+}
