@@ -4,6 +4,7 @@
 
 html {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 340px;
 }
 
 body {
@@ -17,6 +18,7 @@ header {
     width: 100%;
     top: 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid orange;
@@ -29,10 +31,15 @@ header h1 {
     margin-left: 1rem
 }
 
-header li {
+header ul {
     list-style: none;
-    display: inline;
-    margin: 0 1rem 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+header li {
+    margin: 1rem;
 }
 
 a {
